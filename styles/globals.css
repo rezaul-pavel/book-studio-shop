@@ -1,0 +1,41 @@
+.item {
+  height: 15rem;
+  background: #858988;
+  padding: 1rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: relative;
+ }
+
+ .item > button {
+  position: absolute;
+  top: 40%; 
+  left: 40%; 
+ }
+
+.remove-card-border {
+  border: none !important; 
+}
+
+.card-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.custom-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.custom-border {
+  border-top: 3px solid orangered;
+  margin-bottom: 30px;
+  width: 70px;
+}
+.card-width{
+  width: 12rem
+}
